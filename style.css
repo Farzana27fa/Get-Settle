@@ -1,3 +1,51 @@
 body{
-    font-family: ;
+    font-family: 'Abril Fatface', cursive;
+    
+    font-size: 31px;
+}
+h1{
+    padding-left: 10px;
+    margin-top: 0;
+    margin-bottom: -5px;
+}
+.diff-color{
+    color: rgb(255, 187, 60);
+}
+.divider-container{
+    display: flex;
+}
+.first-part{
+    padding-bottom: 100px;
+}
+.width-divider{
+    width: 50%;
+    padding-top: 10%;
+    padding-left: 10%;
+    
+}
+.width-divider img{
+    width: 60%;
+    padding-top: 0;
+}
+.side-line{
+    border-left: 5px solid tomato;
+       
+
+}
+p{
+    width: 80%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+.design-button{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-decoration:none ;
+    background-color: orange;
+    padding: 2px 7px;
+    border-radius: 5px;
+    background-image:linear-gradient(rgb(238, 238, 133) ,tomato)  ;/* color shadding, on button,from daker to lighter*/
+    color: white;
+    font-weight: 250;
 }
