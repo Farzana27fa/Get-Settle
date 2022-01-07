@@ -92,6 +92,7 @@ p{
 .width-divider2 img{
     
     width: 80%;
+    box-shadow: 5px 5px 40px rgb(49, 48, 48);
 
 }
 .design-button{
@@ -102,4 +103,23 @@ p{
     border-radius: 5px;
     color: white;
     font-weight: 250;
+}
+footer{
+    position: relative;
+    background: rgb(19, 17, 17);
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: white;
+}
+
+
+footer p{   
+
+    padding-left: 10%;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #404144;
+
 }
