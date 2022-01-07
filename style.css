@@ -105,8 +105,10 @@ p{
     font-weight: 250;
 }
 footer{
-    position: relative;
     background: rgb(19, 17, 17);
+    padding: 3rem;
+    height: 20vh;
+    min-width: 90vw;
     text-align: center;
     font-family: 'Lobster', cursive;
     font-size: 30px;
@@ -120,6 +122,6 @@ footer p{
     text-align: center;
     font-size: 14px;
     margin-top: 10px;
-    color: #404144;
+    color: #76787c;
 
 }
