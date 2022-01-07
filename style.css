@@ -1,20 +1,21 @@
 body{
-    font-family: 'Abril Fatface', cursive;
-    
-    font-size: 31px;
+    font-family: 'Open Sans', sans-serif;
 }
 h1{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;    
+    font-size: 50px;
     padding-left: 10px;
     margin-top: 0;
     margin-bottom: -5px;
 }
 .diff-color{
-    color: rgb(255, 187, 60);
+    color: rgb(209, 163, 78);
 }
 .divider-container{
     display: flex;
 }
-.first-part{
+.slabs{
     padding-bottom: 100px;
 }
 .width-divider{
@@ -34,12 +35,11 @@ h1{
 }
 p{
     width: 80%;
-    font-family: 'Open Sans', sans-serif;
+    
     font-size: 20px;
     text-align: justify;
 }
 .design-button{
-    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     text-decoration:none ;
     background-color: orange;
@@ -48,4 +48,36 @@ p{
     background-image:linear-gradient(rgb(238, 238, 133) ,tomato)  ;/* color shadding, on button,from daker to lighter*/
     color: white;
     font-weight: 250;
+}
+.heading {
+    text-align: center;
+    color: rgb(12, 23, 58);
+    font-size: 45px;
+    font-weight: bold;
+    font-weight: 900 ;
+
+}
+.strategy {
+    text-align: center;
+    width: 50%;
+    border-radius: 5%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.strategy p{
+    padding-left: 7%;
+    padding-right: 7%;
+
+}
+.strategy img{
+    width: 30%;
+}
+#mission{
+    background-color: rgb(136, 134, 151);
+}
+#vission{
+    background-color: lavender;
+}
+#goal{
+    background-color: rgb(204, 158, 158);
 }
